@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {/* Resume Button */}
         <button
-          onClick={() => window.open('/yash-umak--resume.pdf', '_blank')}
+          onClick={() => window.open('/yash-umak-resume.pdf', '_blank')}
           className="hidden sm:block bg-cyan-300 text-primary font-semibold py-2 px-4 rounded-full hover:bg-cyan-400 transition-all duration-300 focus:outline-none"
         >
           Resume
