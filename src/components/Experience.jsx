@@ -2,7 +2,6 @@ import { useState } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import { Tab, Tabs } from "@mui/material";
-// import { useTheme } from '@mui/material/styles';
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from "../styles";
 import { experiences } from "../constants";
@@ -14,11 +13,11 @@ const ExperienceCard = ({ experience }) => (
     contentStyle={{ background: '#0c1b2c', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #232631' }}
     date={experience.date}
-    iconStyle={{ background: experience.iconBg}}
+    iconStyle={{ background: experience.iconBg }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
-        <img src={experience.icon} 
-        alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
+        <img src={experience.icon}
+          alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
       </div>
     }
   >
@@ -29,7 +28,7 @@ const ExperienceCard = ({ experience }) => (
 
     <ul className="mt-5 list-disc ml-5 space-y-2">
       {experience.points.map((point, index) => (
-        <li 
+        <li
           key={`experience-point-${index}`}
           className="text-white-100 text-[14px] pl-1 tracking-wider">
           {point}
@@ -50,48 +49,52 @@ const Experience = () => {
 
   return (
     <>
-    <motion.div variants={textVariant()}>
-      <p className={`${styles.sectionSubText}`}>What I have done so far</p>
-      <h2 className={`${styles.sectionHeadText}`}>My Experience</h2>
+      <motion.div
+        variants={textVariant()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}
+      >
+        <p className={`${styles.sectionSubText}`}>What I have done so far</p>
+        <h2 className={`${styles.sectionHeadText}`}>My Experience</h2>
+      </motion.div>
 
-    <Tabs
-      value={tabIndex}
-      onChange={handleTabChange}
-      variant="standard"
-      aria-label="Experience tabs"
-      className="mt-4"
-      centered
-      sx={{
-        '& .MuiTabs-indicator': {
-          backgroundColor: "#ffffff", // Pink indicator
-        },
-        '& .MuiTab-root': {
-          color: '#fff', // Default tab text color
-        },
-        '& .Mui-selected': {
-          color: '#ffffff !important', // Pink for selected tab
-        },
-      }}
-      textColor="inherit"
-    >
-      <Tab label="All" />
-      <Tab label="Work" />
-      <Tab label="Education" />
-      <Tab label="Leadership" />
-    </Tabs>
+      <Tabs
+        value={tabIndex}
+        onChange={handleTabChange}
+        variant="standard"
+        aria-label="Experience tabs"
+        className="mt-4"
+        centered
+        sx={{
+          '& .MuiTabs-indicator': {
+            backgroundColor: "#ffffff",
+          },
+          '& .MuiTab-root': {
+            color: '#fff',
+          },
+          '& .Mui-selected': {
+            color: '#ffffff !important',
+          },
+        }}
+        textColor="inherit"
+      >
+        <Tab label="All" />
+        <Tab label="Work" />
+        <Tab label="Education" />
+        <Tab label="Leadership" />
+      </Tabs>
 
-    </motion.div>
-
-    <div className="mt-4">
-      <VerticalTimeline>
-        {experiences.map((experience, index) => {
-          if (tabIndex === 0 || experience.type === tabIndex) {
-            return <ExperienceCard key={index} experience={experience} />;
-          }
-          return null;
-        })}
-      </VerticalTimeline>
-    </div>
+      <div className="mt-4">
+        <VerticalTimeline>
+          {experiences.map((experience, index) => {
+            if (tabIndex === 0 || experience.type === tabIndex) {
+              return <ExperienceCard key={index} experience={experience} />;
+            }
+            return null;
+          })}
+        </VerticalTimeline>
+      </div>
     </>
   )
 }

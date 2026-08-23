@@ -3,20 +3,17 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import urlimg from "./url.png";
 
-// Roles
 import uiux from "./roles/uiux.png";
 import cloud from "./roles/cloud.png";
 import mobile from "./roles/mobile.png";
 import web from "./roles/web.png";
 import DigitalCreator from "./roles/Digital-Creator.jpg";
 
-// Socials
 import github from "./socials/github.png";
 import twitter from "./socials/twitter.png";
 import linkedin from "./socials/linkedin.png";
 import instagram from "./socials/instagram.png";
 
-// Tech
 import next from "./tech/next.webp";
 import chakra from "./tech/chakra.webp";
 import emailjs from "./tech/email.jpg";
@@ -50,21 +47,17 @@ import farmer from "./tech/farmer.png";
 import firebase from "./tech/firebase.png";
 import versal from "./tech/versal.png";
 
-// Company
-// import freelance from "./company/freelance.png";
 import postman from "./company/postman.png";
 import cognifyz from "./company/cognifyz.png";
 import bapu from "./company/bapu.webp";
 import qmark from "./company/qmark.png";
+import poonawala from "./company/poonawala.webp";
 
-// Projects
 import color from "./projects/color.png";
 import task from "./projects/task.png";
 import skill from "./projects/skill.png";
 import scan from "./projects/scan.png";
 import velocity from "./projects/velocity.png";
-
-// Profile Images
 
 export {
   logo,
@@ -90,9 +83,9 @@ export {
   threejs,
   java,
   python,
-  // freelance,
   postman,
   cognifyz,
+  poonawala,
   bapu,
   qmark,
   twitter,

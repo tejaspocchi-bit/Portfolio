@@ -1,9 +1,7 @@
 import {
   mobile,
-  // uiux,
   cloud,
   web,
-  DigitalCreator,
   javascript,
   html,
   css,
@@ -13,36 +11,25 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  java,
-  python,
-  // freelance,
   postman,
   cognifyz,
-  // sheridancollege,
+  poonawala,
   bapu,
-  // qmark,
-  // threejs,
   github,
   linkedin,
   twitter,
   instagram,
-  aws,
-  azure,
   bootstrap,
   adobexd,
   linux,
   windows,
-  devops,
   restapi,
   microservices,
   prototyping,
-  cms,
-  color,
   skill,
   scan,
+  color,
   velocity,
-  task,
   chakra,
   versal,
   express,
@@ -50,6 +37,8 @@ import {
   farmer,
   emailjs,
   uiux,
+  java,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -96,7 +85,7 @@ export const socialLinks = [
 
 const services = [
   {
-    title: "Computer Engineering Student",
+    title: "Software Engineer",
     icon: cloud,
   },
   {
@@ -111,8 +100,6 @@ const services = [
     title: "Hackathon Participant",
     icon: web,
   },
-
-
 ];
 
 const frontendTech = [
@@ -136,10 +123,6 @@ const frontendTech = [
     name: "React.js",
     icon: reactjs,
   },
-  // {
-  //   name: "Angular",
-  //   icon: angular
-  // },
   {
     id: "frontend-tailwind",
     name: "Tailwind CSS",
@@ -165,7 +148,6 @@ const frontendTech = [
     name: "Chakra UI",
     icon: chakra
   },
-
 ]
 
 const backendTech = [
@@ -179,41 +161,16 @@ const backendTech = [
     name: "Java",
     icon: java,
   },
-
   {
     id: "backend-nodejs",
     name: "Node.js",
     icon: nodejs,
   },
-  // {
-  //   name: "C",
-  //   icon: clang
-  // },
-  // {
-  //   name: "C#",
-  //   icon: csharp
-  // },
-  // {
-  //   name: "MySQL",
-  //   icon: mysql
-  // },
   {
     id: "backend-mongodb",
     name: "MongoDB",
     icon: mongodb
   },
-  // {
-  //   name: "Amazon Web Services",
-  //   icon: aws
-  // },
-  // {
-  //   name: "Azure",
-  //   icon: azure
-  // },
-  // {
-  //   name: "Heroku",
-  //   icon: heroku
-  // }
   {
     id: "backend-express",
     name: "ExpressJS",
@@ -237,36 +194,16 @@ const otherTech = [
     name: "GitHub",
     icon: github
   },
-  // {
-  //   name: "Jira",
-  //   icon: jira
-  // },
   {
     id: "other-postman",
     name: "Postman",
     icon: postman
   },
-  // {
-  //   name: "Docker",
-  //   icon: docker
-  // },
-  // {
-  //   name: "Linux",
-  //   icon: linux
-  // },
   {
     id: "other-windows",
     name: "Windows",
     icon: windows
   },
-  // {
-  //   name: "DevOps",
-  //   icon: devops
-  // },
-  // {
-  //   name: "Scrum",
-  //   icon: scrum
-  // },
   {
     id: "other-restapi",
     name: "Designing Restful APIs",
@@ -282,7 +219,6 @@ const otherTech = [
     name: "UI Prototyping",
     icon: prototyping
   },
-
   {
     id: "other-emailjs",
     name: "EmailJS",
@@ -314,18 +250,21 @@ const experiences = [
     ],
     type: 1,
   },
-  // {
-  //   title: "Student Leader",
-  //   company_name: "Postman",
-  //   icon: postman,
-  //   iconBg: "#E6DEDD",
-  //   date: "May 2022 - Dec 2023",
-  //   points: [
-  //     "Facilitating educational workshops to demystify APIs, providing students with the skills to create resilient and innovative software solutions.",
-  //     "Conducting informative sessions on API intricacies, empowering students to master the art of leveraging APIs in software development."
-  //   ],
-  //   type: 3,
-  // },
+  {
+    title: "Software Engineer",
+    company_name: "Poonawalla Fincorp",
+    icon: poonawala,
+    iconBg: "#E6DEDD",
+    date: "Aug 2026 – Present",
+    points: [
+      "Contributing to the development and maintenance of software applications, focusing on reliable and user-friendly solutions.",
+      "Working with cross-functional teams to understand business requirements and deliver effective technical solutions.",
+      "Developing and enhancing applications using modern software development practices, with a focus on clean and maintainable code.",
+      "Troubleshooting technical issues, analyzing application problems, and implementing solutions to improve system performance and reliability.",
+      "Continuously learning new technologies and improving technical skills while contributing to projects in a fast-paced financial services environment."
+    ],
+    type: 1,
+  },
   {
     title: "Workshop Coordinator ",
     company_name: "B. D. Deshmukh College of Engineering",
@@ -355,7 +294,6 @@ const experiences = [
     ],
     type: 3,
   },
-  
   {
     title: "Bachelor of Technology in Computer Engineering",
     company_name: "B. D. Deshmukh College of Engineering",
@@ -370,19 +308,6 @@ const experiences = [
     ],
     type: 2,
   },
-  // {
-  //   title: "Computer Programming Diploma",
-  //   company_name: "Sheridan College",
-  //   icon: sheridancollege,
-  //   iconBg: "#193a67",
-  //   date: "Jan 2023 - Apr 2024",
-  //   points: [
-  //     "Full-stack Expertise: Proficient in Java, C, and C# for robust software and networking. Skilled in Spring Boot, PHP, and Angular, ensuring comprehensive full-stack development.",
-  //     "Agile Project Management: Experience in Agile and Waterfall methodologies. Efficiently uses Jira for project management, ensuring adaptability to evolving software development lifecycles.",
-  //     "Collaborative Problem-solver: Adept at using tools like Jira for collaborative problem-solving."
-  //   ],
-  //   type: 2,
-  // }
 ];
 
 const testimonials = [
@@ -429,11 +354,10 @@ const projects = [
       { name: "Tailwind CSS", color: "pink-text-gradient" },
       { name: "QR Code", color: "orange-text-gradient" }
     ],
-    image: scan, // make sure you define/import `scanfeast` image
+    image: scan,
     source_code_link: "https://github.com/yashumak/scanfeast-scan-to-see-menu.git",
     demo_code_link: "https://scanfeast-ten.vercel.app/"
   },
-
   {
     name: "Color Tool – Design Utility",
     description:
@@ -460,27 +384,10 @@ const projects = [
       { name: "Lucide Icons", color: "blue-text-gradient" },
       { name: "TypeScript", color: "green-text-gradient" }
     ],
-    image: velocity, // define/import `velocity` image in your project
+    image: velocity,
     source_code_link: "https://github.com/yashumak/f1-streetwear-ecommerce-prototype.git",
     demo_code_link: "https://v0-framer-streetwear-website.vercel.app/"
   },
-
-  // {
-  //   name: "Personal Task Tracker",
-  //   description:
-  //     "A lightweight and responsive task management app built with React. Allows users to add, edit, delete, and filter tasks, with all data stored in the browser using localStorage. Includes dark mode, simple login (username only), and search functionality. Built as part of an internship assignment at RYGNeco.",
-  //   tags: [
-  //     { name: "React", color: "blue-text-gradient" },
-  //     { name: "LocalStorage", color: "green-text-gradient" },
-  //     { name: "Responsive Design", color: "pink-text-gradient" },
-  //     { name: "Dark Mode", color: "orange-text-gradient" }
-  //   ],
-  //   image: task,
-  //   source_code_link: "https://github.com/yashumak/Personal-Task-Tracker",
-  //   demo_code_link: "https://personal-task-tracker-zeta.vercel.app/"
-  // },
 ];
-
-
 
 export { services, experiences, testimonials, projects, backendTech, frontendTech, otherTech };

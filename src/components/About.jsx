@@ -44,8 +44,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Enthusiastically navigating the tech landscape, I'm a 4th-year Computer
-        Engineering student embracing a multidisciplinary approach. Rapid
+        Enthusiastically navigating the tech landscape, I'm a Software Engineer
+        with a passion for in software development, embracing a multidisciplinary approach. Rapid
         learning and sharp attention to detail fuel my mission to push
         innovation boundaries. Join me in shaping the future of technology!
       </motion.p>
