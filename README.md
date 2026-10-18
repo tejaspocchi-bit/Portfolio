@@ -1,4 +1,4 @@
-# Yash Umak | Portfolio
+# Tejas pocchi | Portfolio
 
 A modern, responsive portfolio website to showcase projects, experience, and skills. Built with React, Vite, and Tailwind CSS.
 
