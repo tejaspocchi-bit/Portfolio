@@ -1,4 +1,4 @@
-# Tejas pocchi | Portfolio
+# Tejas Pocchi | Portfolio
 
 A modern, responsive portfolio website to showcase projects, experience, and skills. Built with React, Vite, and Tailwind CSS.
 
@@ -34,8 +34,8 @@ A modern, responsive portfolio website to showcase projects, experience, and ski
 ## 🧑‍💻 Getting Started
 1. **Clone the repository:**
    ```bash
-   git clone <https://github.com/yashumak/My-Project.git>
-   cd My-Portfolio
+   git clone https://github.com/tejaspocchi-bit/Portfolio.git
+   cd Portfolio
    ```
 2. **Install dependencies:**
    ```bash
