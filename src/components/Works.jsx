@@ -78,9 +78,7 @@ const ProjectCard = ({
 
 const Works = () => {
   const handleViewMoreClick = () => {
-    const githubProfile = "yashumak";
-    const githubUrl = `https://github.com/yashumak`;
-    window.open(githubUrl, "_blank");
+    window.open("https://github.com/tejaspocchi-bit", "_blank");
   };
 
   return (
@@ -95,12 +93,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          My projects reflect a journey of continuous learning and innovation in
-          tech. Each one blends creativity with problem-solving to deliver
-          practical, impactful solutions. From intuitive interfaces to efficient
-          backends, these works highlight my dedication to building technology
-          that not only functions well but also enhances user experience in
-          meaningful ways.
+          My projects showcase my journey in data analytics, from cleaning and
+          exploring datasets to uncovering patterns and communicating useful
+          insights. Using tools such as SQL, Python, Excel, and Power BI, I turn
+          data into clear reports and visualizations that support informed
+          decisions and solve practical problems.
         </motion.p>
       </div>
 

@@ -1,44 +1,49 @@
 import {
-  mobile,
   cloud,
-  web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
   mongodb,
-  git,
-  figma,
-  postman,
-  cognifyz,
-  poonawala,
-  bapu,
+  qualitasGlobal,
+  arcTechnologies,
+  drgitr,
+  bdce,
   github,
   linkedin,
   twitter,
   instagram,
-  bootstrap,
-  adobexd,
-  linux,
-  windows,
-  restapi,
-  microservices,
   prototyping,
-  skill,
-  scan,
-  color,
   velocity,
-  chakra,
-  versal,
-  express,
-  firebase,
-  farmer,
-  emailjs,
-  uiux,
-  java,
+  prismInsuranceDashboard,
+  netflixSqlAnalysis,
+  endToEndBiDashboard,
   python,
+  excel,
+  powerbi,
+  pandas,
+  numpy,
+  matplotlib,
+  seaborn,
+  scipy,
+  eda,
+  etl,
+  sql,
+  postgresql,
+  mysql,
+  sqlserver,
+  sqlite,
+  joins,
+  cte,
+  subqueries,
+  windowFunctions,
+  queryOptimization,
+  aws,
+  azure,
+  gcp,
+  s3,
+  ec2,
+  iam,
+  rds,
+  lambda,
+  cloudStorage,
+  networking,
 } from "../assets";
 
 export const navLinks = [
@@ -63,248 +68,275 @@ export const navLinks = [
 export const socialLinks = [
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/yash-umak-5242ab320/",
+    url: "https://www.linkedin.com/in/tejas-pocchi-b80a13210/",
     icon: linkedin,
   },
   {
     name: "github",
-    url: "https://github.com/yashumak",
+    url: "https://github.com/tejaspocchi-bit",
     icon: github,
   },
   {
     name: "X",
-    url: "https://x.com/Yashumak94",
+    url: "https://github.com/tejaspocchi-bit",
     icon: twitter,
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/yash__patil_08/",
+    url: "https://www.instagram.com/tejas_pocchi_patil/?hl=en",
     icon: instagram,
   },
 ];
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Data Analyst",
+    icon: python,
+  },
+  {
+    title: "SQL & PostgreSQL",
+    icon: mongodb,
+  },
+  {
+    title: "Power BI Dashboards",
+    icon: prototyping,
+  },
+  {
+    title: "AWS S3 & EC2",
     icon: cloud,
-  },
-  {
-    title: "Effective Communicator",
-    icon: mobile,
-  },
-  {
-    title: "Digital Creator",
-    icon: uiux,
-  },
-  {
-    title: "Hackathon Participant",
-    icon: web,
   },
 ];
 
-const frontendTech = [
+const dataAnalyticsTech = [
   {
-    id: "frontend-html",
-    name: "HTML",
-    icon: html,
+    id: "analytics-excel",
+    name: "Excel",
+    icon: excel,
   },
   {
-    id: "frontend-css",
-    name: "CSS",
-    icon: css,
+    id: "analytics-advanced-excel",
+    name: "Advanced Excel",
+    icon: excel,
   },
   {
-    id: "frontend-js",
-    name: "JavaScript",
-    icon: javascript,
+    id: "analytics-power-bi",
+    name: "Power BI",
+    icon: powerbi,
   },
   {
-    id: "frontend-react",
-    name: "React.js",
-    icon: reactjs,
+    id: "analytics-python",
+    name: "Python",
+    icon: python,
   },
   {
-    id: "frontend-tailwind",
-    name: "Tailwind CSS",
-    icon: tailwind
+    id: "analytics-pandas",
+    name: "Pandas",
+    icon: pandas,
   },
   {
-    id: "frontend-bootstrap",
-    name: "Bootstrap",
-    icon: bootstrap
+    id: "analytics-numpy",
+    name: "NumPy",
+    icon: numpy,
   },
   {
-    id: "frontend-figma",
-    name: "Figma",
-    icon: figma
+    id: "analytics-matplotlib",
+    name: "Matplotlib",
+    icon: matplotlib,
   },
   {
-    id: "frontend-adobexd",
-    name: "Adobe XD",
-    icon: adobexd
+    id: "analytics-seaborn",
+    name: "Seaborn",
+    icon: seaborn,
   },
   {
-    id: "frontend-chakra",
-    name: "Chakra UI",
-    icon: chakra
+    id: "analytics-scipy",
+    name: "SciPy",
+    icon: scipy,
+  },
+  {
+    id: "analytics-eda",
+    name: "Exploratory Data Analysis (EDA)",
+    icon: eda,
+  },
+  {
+    id: "analytics-etl",
+    name: "ETL Processes",
+    icon: etl,
   },
 ]
 
 const backendTech = [
   {
-    id: "backend-python",
-    name: "Python",
-    icon: python,
+    id: "sql-language",
+    name: "SQL",
+    icon: sql,
   },
   {
-    id: "backend-java",
-    name: "Java",
-    icon: java,
+    id: "sql-postgresql",
+    name: "PostgreSQL",
+    icon: postgresql,
   },
   {
-    id: "backend-nodejs",
-    name: "Node.js",
-    icon: nodejs,
+    id: "sql-mysql",
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    id: "backend-mongodb",
-    name: "MongoDB",
-    icon: mongodb
+    id: "sql-server",
+    name: "Microsoft SQL Server",
+    icon: sqlserver,
   },
   {
-    id: "backend-express",
-    name: "ExpressJS",
-    icon: express
+    id: "sql-sqlite",
+    name: "SQLite",
+    icon: sqlite,
   },
   {
-    id: "backend-firebase",
-    name: "Firebase",
-    icon: firebase
+    id: "sql-joins",
+    name: "Joins",
+    icon: joins,
+  },
+  {
+    id: "sql-ctes",
+    name: "CTEs",
+    icon: cte,
+  },
+  {
+    id: "sql-subqueries",
+    name: "Subqueries",
+    icon: subqueries,
+  },
+  {
+    id: "sql-window-functions",
+    name: "Window Functions",
+    icon: windowFunctions,
+  },
+  {
+    id: "sql-query-optimization",
+    name: "Query Optimization",
+    icon: queryOptimization,
   },
 ]
 
-const otherTech = [
+const cloudTech = [
   {
-    id: "other-git",
-    name: "Git",
-    icon: git
+    id: "cloud-aws",
+    name: "AWS",
+    icon: aws,
   },
   {
-    id: "other-github",
-    name: "GitHub",
-    icon: github
+    id: "cloud-s3",
+    name: "Amazon S3",
+    icon: s3,
   },
   {
-    id: "other-postman",
-    name: "Postman",
-    icon: postman
+    id: "cloud-ec2",
+    name: "Amazon EC2",
+    icon: ec2,
   },
   {
-    id: "other-windows",
-    name: "Windows",
-    icon: windows
+    id: "cloud-iam",
+    name: "AWS IAM",
+    icon: iam,
   },
   {
-    id: "other-restapi",
-    name: "Designing Restful APIs",
-    icon: restapi
+    id: "cloud-rds",
+    name: "Amazon RDS",
+    icon: rds,
   },
   {
-    id: "other-microservices",
-    name: "Microservices",
-    icon: microservices
+    id: "cloud-lambda",
+    name: "AWS Lambda",
+    icon: lambda,
   },
   {
-    id: "other-prototyping",
-    name: "UI Prototyping",
-    icon: prototyping
+    id: "cloud-azure",
+    name: "Microsoft Azure",
+    icon: azure,
   },
   {
-    id: "other-emailjs",
-    name: "EmailJS",
-    icon: emailjs
+    id: "cloud-gcp",
+    name: "Google Cloud",
+    icon: gcp,
   },
   {
-    id: "other-farmer",
-    name: "Farmer Motion",
-    icon: farmer
+    id: "cloud-storage",
+    name: "Cloud Storage",
+    icon: cloudStorage,
   },
   {
-    id: "frontend-versal",
-    name: "Versal",
-    icon: versal
+    id: "cloud-networking",
+    name: "Cloud Networking",
+    icon: networking,
   },
 ]
 
 const experiences = [
   {
-    title: "Front-End Development Intern",
-    company_name: "Cognifyz Technologies",
-    icon: cognifyz,
+    title: "Data Annotator",
+    company_name: "Qualitas Global",
+    icon: qualitasGlobal,
     iconBg: "#E6DEDD",
-    date: "Jan 2025 – Feb 2025",
+    date: "July 2026 – Present",
     points: [
-      "Contributed to UI development projects using modern front-end technologies, demonstrating strong attention to detail and a user-focused approach.",
-      "Collaborated with cross-functional teams to deliver responsive and dynamic interfaces, exhibiting excellent communication and coordination skills.",
-      "Approached tasks with enthusiasm and a continuous learning mindset, showing a deep passion for front-end development and emerging tech trends."
+      "Annotate image and video data for autonomous driving (ADAS) projects using bounding-box techniques in Labelbox to support computer vision model training.",
+      "Label vehicles, pedestrians, lane markings, and traffic signs accurately while following quality guidelines for safety-critical AI applications.",
+      "Collaborate with QA teams to resolve labeling errors and consistently meet annotation targets while maintaining precision."
     ],
     type: 1,
   },
   {
-    title: "Software Engineer",
-    company_name: "Poonawalla Fincorp",
-    icon: poonawala,
+    title: "Data Analyst Trainee (Internship)",
+    company_name: "ARC Institute & Technology",
+    icon: arcTechnologies,
     iconBg: "#E6DEDD",
-    date: "Aug 2026 – Present",
+    date: "Nov 2025 – Jun 2026",
     points: [
-      "Contributing to the development and maintenance of software applications, focusing on reliable and user-friendly solutions.",
-      "Working with cross-functional teams to understand business requirements and deliver effective technical solutions.",
-      "Developing and enhancing applications using modern software development practices, with a focus on clean and maintainable code.",
-      "Troubleshooting technical issues, analyzing application problems, and implementing solutions to improve system performance and reliability.",
-      "Continuously learning new technologies and improving technical skills while contributing to projects in a fast-paced financial services environment."
+      "Completed hands-on data analyst training and internship, developing practical skills in Excel, SQL, Power BI, and Python across the data collection, cleaning, analysis, and reporting workflow.",
+      "Cleaned, transformed, and analyzed data using Excel (PivotTables, VLOOKUP, and formulas) and Python (Pandas and NumPy), and wrote SQL queries to extract, filter, and join relational data for reporting.",
+      "Designed interactive Power BI dashboards to visualize key metrics and applied statistical and analytical techniques to identify trends, patterns, and insights from raw datasets."
     ],
     type: 1,
   },
   {
     title: "Workshop Coordinator ",
-    company_name: "B. D. Deshmukh College of Engineering",
-    icon: bapu,
+    company_name: "Dr. Rajendra Gode Institute of Technology & Research, Amravati",
+    icon: drgitr,
     iconBg: "#E6DEDD",
     date: "Mar 2024",
     points: [
       "Led a web development workshop for 30+ students, delivering hands-on training in HTML, CSS, and JavaScript fundamentals, achieving a 4.7 out of 5 rating for clear explanations and effective teaching methods.",
-      "Designed and delivered interactive coding sessions, helping beginners build their first responsive webpage and boosting participant confidence in front-end development.",
-      "Created tailored learning materials and real-time demos, ensuring concepts were accessible to all learning levels and encouraging peer-to-peer collaboration.",
-      "Provided one-on-one guidance during coding exercises, resolving bugs and clarifying doubts, which resulted in 90% of attendees completing all workshop tasks successfully."
+      "Designed interactive coding sessions, learning materials, and live demos to help beginners build responsive webpages and collaborate through hands-on practice.",
+      "Provided individual coding support and troubleshooting, helping 90% of attendees complete all workshop tasks successfully.",
+      "Represented the college as a Young Inspirators Network (YIN) leader at a student parliament program in Mumbai, contributing student perspectives and developing leadership, public speaking, teamwork, and decision-making skills."
     ],
     type: 3,
   },
   {
-    title: "Technical Committee Incharge",
-    company_name: "B. D. Deshmukh College of Engineering",
-    icon: bapu,
+    title: "Festival Committee Incharge",
+    company_name: "Dr. Rajendra Gode Institute of Technology & Research, Amravati",
+    icon: drgitr,
     iconBg: "#E6DEDD",
     date: "2023 - 2024",
     points: [
-      "Led the design and publication of the Departmental Annual Magazine 'The DigitalPane' in both online and offline formats, ensuring creative presentation and timely release.",
-      "Provided technical support during organization of various technical and cultural events, managing both online and offline requirements effectively.",
-      "Promoted technical events organized by the institute and other institutes through digital campaigns, increasing student participation and engagement.",
-      "Designed event-related materials including banners, posters, leaflets, photo collages, and presentations, ensuring high-quality visual communication.",
-      "Maintained detailed records of students' participation in technical events, including certificate verification and documentation for the academic year."
+      "Supported the planning and coordination of college festivals and cultural events, helping manage event requirements across online and offline formats.",
+      "Provided on-site and technical support to help festival activities run smoothly.",
+      "Promoted college events through digital campaigns and created banners, posters, leaflets, photo collages, and presentations.",
+      "Maintained participation records and verified event certificates for student activities."
     ],
     type: 3,
   },
   {
-    title: "Bachelor of Technology in Computer Engineering",
-    company_name: "B. D. Deshmukh College of Engineering",
-    icon: bapu,
+    title: "Bachelor of Engineering in Computer Science and Engineering",
+    company_name: "Dr. Rajendra Gode Institute of Technology & Research, Amravati",
+    icon: drgitr,
     iconBg: "#E6DEDD",
-    date: "Nov 2022 - Jun 2026",
+    date: "2021 - 2025",
     points: [
-      "Specialized in Software Development with a focus on designing, building, and maintaining full-stack applications using modern tools and frameworks.",
-      "Proficient in JavaScript, React, Node.js, and Express for web development; experienced in developing RESTful APIs and dynamic front-end interfaces.",
-      "Exposure to cloud platforms like AWS and Azure for deploying scalable applications and leveraging cloud-based services.",
-      "Strong understanding of data structures, algorithms, and software design principles to create efficient and maintainable code."
+      "Completed a four-year undergraduate program in Computer Science and Engineering from 2021 to 2025, building a foundation in the discipline.",
+      "Earned the Bachelor of Engineering degree in 2025 from Dr. Rajendra Gode Institute of Technology & Research in Amravati.",
+      "Completed the program under SGBA University's academic affiliation.",
+      "Graduated with a CGPA of 7.28 across the degree program."
     ],
     type: 2,
   },
@@ -313,7 +345,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Yash Umak is highly knowlegeble about the web. He skillfully made a very good and highly secure website website for my Computer Science education platform TastyPython. It was done within a few days and the website had more features than I could imagine. Nayan's style of work is unique, he will not bother you for small details about the website along the course of development, but ask all questions together initially and at a later stage. This ensures that you arent being bothered too much all the time, and the work is still on. Nayan was kind enough to not only make the website for me, but also taught me how to make a personal blog with a free domain! He ensures that all your doubts are clear, and the website was easy to operate post development.",
+      "Tejas pocchi is highly knowlegeble about the web. He skillfully made a very good and highly secure website website for my Computer Science education platform TastyPython. It was done within a few days and the website had more features than I could imagine. Nayan's style of work is unique, he will not bother you for small details about the website along the course of development, but ask all questions together initially and at a later stage. This ensures that you arent being bothered too much all the time, and the work is still on. Nayan was kind enough to not only make the website for me, but also taught me how to make a personal blog with a free domain! He ensures that all your doubts are clear, and the website was easy to operate post development.",
     name: "Tejas Kannampuzha",
     designation: "Founder",
     company: "TastyPython",
@@ -321,7 +353,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "In todays' world where companies lack team members who add value to the organisation I must say Yash Umak is one of those exceptional individuals who master in deep technical knowledge, communication along with a humble nature. He uses his abilities not only to contribute meaningfully to societal projects but also to address the technical queries of his peers. Since our time in secondary high school, his passion for Postman, APIs and contributions in dynamic workshops has always grabbed attention of various technophiles and educators alike. It became evident early on that he is undoubtedly an undefeated and reliable individual who is sure shot to excel as a fine IT professional regardless of the choosen domain. Having worked with him I can at least remark that collaborating with him was a true pleasure. He effortlessly fulfills the role of a team leader, friend, and mentor - creating a harmonious and productive work environment. Additionally, hosting dynamic workshops to demystify APIs and imparting skills to fellow students showcases his commitment to foster creativity and confidence in software engineering. In essence, Yash Umak is a dynamic individual with, a magic in his own right and a highly promising asset.",
+      "In todays' world where companies lack team members who add value to the organisation I must say Tejas pocchi is one of those exceptional individuals who master in deep technical knowledge, communication along with a humble nature. He uses his abilities not only to contribute meaningfully to societal projects but also to address the technical queries of his peers. Since our time in secondary high school, his passion for Postman, APIs and contributions in dynamic workshops has always grabbed attention of various technophiles and educators alike. It became evident early on that he is undoubtedly an undefeated and reliable individual who is sure shot to excel as a fine IT professional regardless of the choosen domain. Having worked with him I can at least remark that collaborating with him was a true pleasure. He effortlessly fulfills the role of a team leader, friend, and mentor - creating a harmonious and productive work environment. Additionally, hosting dynamic workshops to demystify APIs and imparting skills to fellow students showcases his commitment to foster creativity and confidence in software engineering. In essence, Tejas pocchi is a dynamic individual with, a magic in his own right and a highly promising asset.",
     name: "Payal Lenka",
     designation: "Student",
     company: "RNS Institute of Technology",
@@ -331,63 +363,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SkillCertify – The Internship Platform",
+    name: "PRISM Insurance Power BI Dashboard",
     description:
-      "SkillCertify is a modern and responsive web application built with React that offers a complete online learning experience. It allows users to browse courses, complete assignments, and earn verifiable certificates. With a sleek UI, smooth animations, and full responsiveness, it delivers a seamless experience across devices.",
+      "An interactive Power BI dashboard analyzing active and inactive insurance policies from CSV data. It highlights total policies, premium, coverage and claim amounts, policy-type comparisons, claim status, age-group trends, and detailed policy tables using slicers and DAX measures. Policy status is evaluated against the 10/07/2025 reference date.",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
-      { name: "Tailwind CSS", color: "green-text-gradient" },
-      { name: "Framer Motion", color: "pink-text-gradient" },
-      { name: "Radix UI", color: "orange-text-gradient" }
+      { name: "Power BI", color: "blue-text-gradient" },
+      { name: "DAX", color: "green-text-gradient" },
+      { name: "Data Modeling", color: "pink-text-gradient" },
+      { name: "CSV", color: "orange-text-gradient" }
     ],
-    image: skill,
-    source_code_link: "https://github.com/yashumak/Skillcertify-The-internship-platform",
-    demo_code_link: "https://skillcertify-client.vercel.app/"
+    image: prismInsuranceDashboard,
+    source_code_link: "https://github.com/tejaspocchi-bit/powerbi-insurance-analysis",
+    demo_code_link: "https://github.com/tejaspocchi-bit/powerbi-insurance-analysis/blob/main/README.md#-prism-insurance-power-bi-dashboard"
   },
   {
-    name: "ScanFeast – QR-Powered Restaurant Menu",
+    name: "Netflix Movies and TV Shows Data Analysis using PostgreSQL",
     description:
-      "ScanFeast is a modern, QR-powered restaurant menu app built with Next.js, React, and Tailwind CSS. It features a digital menu with categories and food items, search and filtering, QR code generation for quick access, food detail pages with ratings, and a fully mobile-friendly design. The project uses the App Router, pnpm, and TypeScript for scalable architecture.",
+      "Analyzed the Netflix titles dataset using PostgreSQL to answer business questions about movies and TV shows. Explored content types, ratings, release years, countries, genres, durations, directors, and cast, using aggregations, joins, CTEs, window functions, and string/date operations to surface insights.",
     tags: [
-      { name: "Next.js", color: "blue-text-gradient" },
-      { name: "TypeScript", color: "green-text-gradient" },
-      { name: "Tailwind CSS", color: "pink-text-gradient" },
-      { name: "QR Code", color: "orange-text-gradient" }
+      { name: "PostgreSQL", color: "blue-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" },
+      { name: "Data Analysis", color: "pink-text-gradient" },
+      { name: "CTEs & Window Functions", color: "orange-text-gradient" }
     ],
-    image: scan,
-    source_code_link: "https://github.com/yashumak/scanfeast-scan-to-see-menu.git",
-    demo_code_link: "https://scanfeast-ten.vercel.app/"
+    image: netflixSqlAnalysis,
+    source_code_link: "https://github.com/tejaspocchi-bit/PgSQL_Netflix_Project",
+    demo_code_link: "https://github.com/tejaspocchi-bit/PgSQL_Netflix_Project/blob/main/README.md#netflix-movies-and-tv-shows-data-analysis-using-pgsql"
   },
   {
-    name: "Color Tool – Design Utility",
+    name: "End-to-End BI Project using PostgreSQL & Power BI",
     description:
-      "Color Tool is a vibrant playground for designers and developers to explore, convert, and generate colors. It features HEX, RGB, HSL converters, palette generators, harmony tools, and prebuilt UI color schemes. Built with Next.js and Tailwind, it offers a seamless, responsive, and interactive experience for color-driven design decisions.",
+      "Built an end-to-end business intelligence workflow from raw CSV files to an interactive Power BI dashboard. Imported datasets into PostgreSQL, cleaned and standardized data with SQL, integrated tables using LEFT JOINs, and connected the transformed data to Power BI to create KPI cards, visuals, filters, and slicers for business analysis.",
     tags: [
-      { name: "Next.js", color: "blue-text-gradient" },
-      { name: "TypeScript", color: "green-text-gradient" },
-      { name: "Tailwind CSS", color: "pink-text-gradient" },
-      { name: "Radix UI", color: "orange-text-gradient" }
+      { name: "PostgreSQL", color: "blue-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" },
+      { name: "Power BI", color: "pink-text-gradient" },
+      { name: "ETL & Data Modeling", color: "orange-text-gradient" }
     ],
-    image: color,
-    source_code_link: "https://github.com/yashumak/Color-tool",
-    demo_code_link: "https://color-tool-gamma.vercel.app/"
+    image: endToEndBiDashboard,
+    source_code_link: "https://github.com/tejaspocchi-bit/end-to-end-bi-powerbi-postgres",
+    demo_code_link: "https://github.com/tejaspocchi-bit/end-to-end-bi-powerbi-postgres/blob/main/README.md#end-to-end-bi-project-using-postgresql--power-bi"
   },
-  {
-    name: "VELOCITY Racing – F1 Streetwear Ecommerce Prototype",
-    description:
-      "A minimal, modern e-commerce experience for an F1-inspired streetwear brand. Built with a focus on clarity, speed, and user experience using Next.js, React, Tailwind CSS, and Radix UI. The prototype includes only the essential flows (Home, Category, Product, Cart, and Auth), showcasing smart time use and cohesive design.",
-    tags: [
-      { name: "Next.js", color: "blue-text-gradient" },
-      { name: "React", color: "green-text-gradient" },
-      { name: "Tailwind CSS", color: "pink-text-gradient" },
-      { name: "Radix UI", color: "orange-text-gradient" },
-      { name: "Lucide Icons", color: "blue-text-gradient" },
-      { name: "TypeScript", color: "green-text-gradient" }
-    ],
-    image: velocity,
-    source_code_link: "https://github.com/yashumak/f1-streetwear-ecommerce-prototype.git",
-    demo_code_link: "https://v0-framer-streetwear-website.vercel.app/"
-  },
+  
 ];
 
-export { services, experiences, testimonials, projects, backendTech, frontendTech, otherTech };
+export { services, experiences, testimonials, projects, backendTech, dataAnalyticsTech, cloudTech };

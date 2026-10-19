@@ -43,14 +43,14 @@ const AddedContacts = () => {
         <motion.div className="bg-primary p-8 rounded-xl w-full md:w-1/3 mt-4 md:mt-0">
           <h2 className="text-white tracking-wider font-black text-4xl mb-4">Email</h2>
           <div>
-            <p><a href='mailto:www.yashumak@gmail.com' className='text-secondary'>www.yashumak@gmail.com</a></p>
+            <p><a href='mailto:tejaspocchi@gmail.com' className='text-secondary'>tejaspocchi@gmail.com</a></p>
           </div>
         </motion.div>
 
         {/* Address Box */}
         <motion.div className="bg-primary p-8 rounded-xl w-full md:w-1/3 mt-4 md:mt-0">
           <h2 className="text-white tracking-wider font-black text-4xl mb-4">Address</h2>
-          <p>Amravati, Maharashtra, India</p>
+          <p>Pune, Maharashtra, India</p>
         </motion.div>
       </div>
     </div>

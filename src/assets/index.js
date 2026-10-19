@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./tp-logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import urlimg from "./url.png";
@@ -14,7 +14,6 @@ import twitter from "./socials/twitter.png";
 import linkedin from "./socials/linkedin.png";
 import instagram from "./socials/instagram.png";
 
-import next from "./tech/next.webp";
 import chakra from "./tech/chakra.webp";
 import emailjs from "./tech/email.jpg";
 import express from "./tech/ExpressJS.png";
@@ -46,18 +45,51 @@ import cms from "./tech/cms.png";
 import farmer from "./tech/farmer.png";
 import firebase from "./tech/firebase.png";
 import versal from "./tech/versal.png";
+import excel from "./tech/excel.svg";
+import powerbi from "./tech/powerbi.svg";
+import pandas from "./tech/pandas.svg";
+import numpy from "./tech/numpy.svg";
+import matplotlib from "./tech/matplotlib.svg";
+import seaborn from "./tech/seaborn.svg";
+import scipy from "./tech/scipy.svg";
+import eda from "./tech/eda.svg";
+import etl from "./tech/etl.svg";
+import sql from "./tech/sql.svg";
+import postgresql from "./tech/postgresql.svg";
+import mysql from "./tech/mysql.svg";
+import sqlserver from "./tech/sqlserver.svg";
+import sqlite from "./tech/sqlite.svg";
+import joins from "./tech/joins.svg";
+import cte from "./tech/cte.svg";
+import subqueries from "./tech/subqueries.svg";
+import windowFunctions from "./tech/window-functions.svg";
+import queryOptimization from "./tech/query-optimization.svg";
+import s3 from "./tech/s3.svg";
+import ec2 from "./tech/ec2.svg";
+import iam from "./tech/iam.svg";
+import rds from "./tech/rds.svg";
+import lambda from "./tech/lambda.svg";
+import cloudStorage from "./tech/cloud-storage.svg";
+import networking from "./tech/networking.svg";
 
 import postman from "./company/postman.png";
 import cognifyz from "./company/cognifyz.png";
 import bapu from "./company/bapu.webp";
 import qmark from "./company/qmark.png";
 import poonawala from "./company/poonawala.webp";
+import qualitasGlobal from "./company/qualitas-global.png";
+import arcTechnologies from "./company/arc-technologies.png";
+import drgitr from "./company/drgitr.png";
+import bdce from "./company/bdce.webp";
 
 import color from "./projects/color.png";
 import task from "./projects/task.png";
 import skill from "./projects/skill.png";
 import scan from "./projects/scan.png";
 import velocity from "./projects/velocity.png";
+import prismInsuranceDashboard from "./projects/prism-insurance-dashboard.png";
+import netflixSqlAnalysis from "./projects/netflix-sql-analysis.png";
+import endToEndBiDashboard from "./projects/end-to-end-bi-dashboard.png";
 
 export {
   logo,
@@ -88,6 +120,10 @@ export {
   poonawala,
   bapu,
   qmark,
+  qualitasGlobal,
+  arcTechnologies,
+  drgitr,
+  bdce,
   twitter,
   linkedin,
   instagram,
@@ -108,9 +144,38 @@ export {
   skill,
   scan,
   velocity,
+  prismInsuranceDashboard,
+  netflixSqlAnalysis,
+  endToEndBiDashboard,
   farmer,
   firebase,
   versal,
+  excel,
+  powerbi,
+  pandas,
+  numpy,
+  matplotlib,
+  seaborn,
+  scipy,
+  eda,
+  etl,
+  sql,
+  postgresql,
+  mysql,
+  sqlserver,
+  sqlite,
+  joins,
+  cte,
+  subqueries,
+  windowFunctions,
+  queryOptimization,
+  s3,
+  ec2,
+  iam,
+  rds,
+  lambda,
+  cloudStorage,
+  networking,
   chakra,
   express,
   emailjs,

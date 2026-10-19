@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="5" y="5" width="54" height="54" rx="12" fill="#3b2f63"/>
+  <path d="M19 24a14 14 0 1 1 1 18m-1-18v9h9" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="37" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#ffd166">CTE</text>
+</svg>

@@ -38,8 +38,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
-          <span className="text-white text-lg font-bold">Yash Umak</span>
+          <img src={logo} alt="TP logo" className="w-10 h-10 object-contain" />
+          <span className="text-white text-lg font-bold">Tejas Pocchi</span>
         </Link>
 
         <ul className="hidden sm:flex gap-8 items-center">
@@ -56,7 +56,7 @@ const Navbar = () => {
         </ul>
 
         <button
-          onClick={() => window.open('/yash-umak-resume.pdf', '_blank')}
+          onClick={() => window.open('/Tejas-Pocchi-Resume.pdf', '_blank')}
           className="hidden sm:block bg-cyan-300 text-primary font-semibold py-2 px-4 rounded-full hover:bg-cyan-400 transition-all duration-300 focus:outline-none"
         >
           Resume

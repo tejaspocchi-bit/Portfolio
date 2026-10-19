@@ -32,7 +32,7 @@ const Hero = () => {
               <span className="text-[#0feffd]">
                 <Typewriter
                   options={{
-                    strings: ['Yash Umak', 'a Frontend Developer', 'a Backend Developer', 'a Full-Stack Developer'],
+                    strings: ['Tejas Pocchi', 'a Data Analyst', 'a SQL Developer', 'a PowerBI Developer'],
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 50,

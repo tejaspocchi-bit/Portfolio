@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Accordion,
   AccordionSummary,
@@ -8,7 +7,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import { SectionWrapper } from "../hoc";
-import { backendTech, frontendTech, otherTech } from "../constants";
+import { backendTech, cloudTech, dataAnalyticsTech } from "../constants";
 
 import { motion } from "framer-motion";
 import { textVariant, fadeIn } from "../utils/motion";
@@ -64,14 +63,14 @@ const Tech = () => {
           <Accordion defaultExpanded sx={accordionStyle}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={accordionStyle} />}
-              aria-controls="frontend-content"
-              id="frontend-header"
+              aria-controls="data-analytics-content"
+              id="data-analytics-header"
             >
-              Frontend Technologies
+              Data Analytics
             </AccordionSummary>
             <AccordionDetails>
               <div className="flex flex-row flex-wrap justify-center gap-2">
-                {renderTechButtons(frontendTech)}
+                {renderTechButtons(dataAnalyticsTech)}
               </div>
             </AccordionDetails>
           </Accordion>
@@ -79,10 +78,10 @@ const Tech = () => {
           <Accordion sx={accordionStyle}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={accordionStyle} />}
-              aria-controls="backend-content"
-              id="backend-header"
+              aria-controls="sql-developer-content"
+              id="sql-developer-header"
             >
-              Backend Technologies
+              SQL Developer
             </AccordionSummary>
             <AccordionDetails>
               <div className="flex flex-row flex-wrap justify-center gap-2">
@@ -91,18 +90,17 @@ const Tech = () => {
             </AccordionDetails>
           </Accordion>
 
-          {/* Added Other Technologies Accordion */}
           <Accordion sx={accordionStyle}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon sx={accordionStyle} />}
-              aria-controls="other-content"
-              id="other-header"
+              aria-controls="cloud-computing-content"
+              id="cloud-computing-header"
             >
-              Other Technologies
+              Cloud Computing
             </AccordionSummary>
             <AccordionDetails>
               <div className="flex flex-row flex-wrap justify-center gap-2">
-                {renderTechButtons(otherTech)}
+                {renderTechButtons(cloudTech)}
               </div>
             </AccordionDetails>
           </Accordion>
