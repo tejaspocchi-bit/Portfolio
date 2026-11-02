@@ -281,7 +281,8 @@ const experiences = [
     points: [
       "Annotate image and video data for autonomous driving (ADAS) projects using bounding-box techniques in Labelbox to support computer vision model training.",
       "Label vehicles, pedestrians, lane markings, and traffic signs accurately while following quality guidelines for safety-critical AI applications.",
-      "Collaborate with QA teams to resolve labeling errors and consistently meet annotation targets while maintaining precision."
+      "Collaborate with QA teams to resolve labeling errors and consistently meet annotation targets while maintaining precision.",
+      "Maintained high annotation accuracy and throughput by reviewing feedback from QA cycles, applying corrections systematically, and adapting to evolving labeling guidelines to ensure consistent data quality across batches."
     ],
     type: 1,
   },
@@ -294,7 +295,8 @@ const experiences = [
     points: [
       "Completed hands-on data analyst training and internship, developing practical skills in Excel, SQL, Power BI, and Python across the data collection, cleaning, analysis, and reporting workflow.",
       "Cleaned, transformed, and analyzed data using Excel (PivotTables, VLOOKUP, and formulas) and Python (Pandas and NumPy), and wrote SQL queries to extract, filter, and join relational data for reporting.",
-      "Designed interactive Power BI dashboards to visualize key metrics and applied statistical and analytical techniques to identify trends, patterns, and insights from raw datasets."
+      "Designed interactive Power BI dashboards to visualize key metrics and applied statistical and analytical techniques to identify trends, patterns, and insights from raw datasets.",
+      "Executed end-to-end data projects by building ETL pipelines to collect and standardize raw datasets, performing exploratory data analysis (EDA) to uncover data quality issues, and delivering structured reports with actionable findings."
     ],
     type: 1,
   },
@@ -322,7 +324,8 @@ const experiences = [
       "Supported the planning and coordination of college festivals and cultural events, helping manage event requirements across online and offline formats.",
       "Provided on-site and technical support to help festival activities run smoothly.",
       "Promoted college events through digital campaigns and created banners, posters, leaflets, photo collages, and presentations.",
-      "Maintained participation records and verified event certificates for student activities."
+      "Maintained participation records and verified event certificates for student activities.",
+      "Coordinated between student volunteers, faculty, and vendors to align on logistics, timelines, and responsibilities, ensuring smooth execution of multi-day events with consistent communication across all stakeholders."
     ],
     type: 3,
   },
@@ -333,10 +336,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2021 - 2025",
     points: [
-      "Completed a four-year undergraduate program in Computer Science and Engineering from 2021 to 2025, building a foundation in the discipline.",
-      "Earned the Bachelor of Engineering degree in 2025 from Dr. Rajendra Gode Institute of Technology & Research in Amravati.",
-      "Completed the program under SGBA University's academic affiliation.",
-      "Graduated with a CGPA of 7.28 across the degree program."
+      "Completed a four-year undergraduate program in Computer Science and Engineering from 2021 to 2025, gaining a strong foundation in core subjects including data structures, algorithms, database management systems, operating systems, computer networks, and software engineering principles.",
+      "Earned the Bachelor of Engineering degree in 2025 from Dr. Rajendra Gode Institute of Technology & Research in Amravati, one of the recognized engineering institutions in the Vidarbha region offering industry-aligned technical education.",
+      "Completed the program under the academic affiliation of Sant Gadge Baba Amravati (SGBA) University, following its prescribed curriculum, examination standards, and evaluation framework across all eight semesters.",
+      "Graduated with a CGPA of 7.28 across the degree program, demonstrating consistent academic performance while also actively participating in technical workshops, college events, and extracurricular leadership activities."
     ],
     type: 2,
   },
